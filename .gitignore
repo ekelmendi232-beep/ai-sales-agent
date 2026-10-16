@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.log
+
+# Keep local credentials out of Git.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
